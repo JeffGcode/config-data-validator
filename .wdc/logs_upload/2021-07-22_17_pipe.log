@@ -1,0 +1,46 @@
+2021-07-22T13:28:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.delete",
+    "context": [
+      {
+        "model": {
+          "name": "Ultra USB 3.0",
+          "deviceId": "USB_0781_5591_4C530001300720104050",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_0781_5591",
+          "serial": "4C530001300720104050",
+          "capacity": "15376317952",
+          "firmware": "1",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "15371075584",
+              "spaceAvailable": "0.48659526570707418",
+              "volumeName": "Zack's Tools (D:)",
+              "fileSystemType": "",
+              "url": "Zack's Tools (D:)",
+              "label": "Zack's Tools (D:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "D:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "D"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

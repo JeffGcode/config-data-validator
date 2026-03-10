@@ -1,0 +1,439 @@
+2025-11-24T21:54:00-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:54:01-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.78492693697226146",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:56:04-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.99964144704424462",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:56:39-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.99534824717927861",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:56:54-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.89600915882637855",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:57:34-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.89272661700044242",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:57:54-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.89291742588332979",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:57:59-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.89294782949653717",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:58:34-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.88865462963157116",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2025-11-24T21:59:54-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.88436038136614969",
+              "volumeName": "My Passport (E:)",
+              "fileSystemType": "",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

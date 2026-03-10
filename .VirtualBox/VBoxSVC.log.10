@@ -1,0 +1,58 @@
+00:00:00.002805 main     VirtualBox COM Server 7.0.20 r163906 win.amd64 (Jul 10 2024 14:54:08) release log
+00:00:00.002806 main     Log opened 2024-07-19T16:31:26.979423400Z
+00:00:00.002807 main     Build Type: release
+00:00:00.002811 main     OS Product: Windows 10
+00:00:00.002812 main     OS Release: 10.0.19045
+00:00:00.002812 main     OS Service Pack: 
+00:00:00.022852 main     DMI Product Name: G7 7588
+00:00:00.034757 main     DMI Product Version: 
+00:00:00.034770 main     Firmware type: UEFI
+00:00:00.035079 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.035103 main     Host RAM: 16178MB (15.7GB) total, 6277MB (6.1GB) available
+00:00:00.035107 main     Executable: E:\VirtualBox\VBoxSVC.exe
+00:00:00.035107 main     Process ID: 27724
+00:00:00.035108 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.083174          VirtualBox: object creation starts
+00:00:00.083602          Home directory: 'C:\Users\Jeffr\.VirtualBox'
+00:00:00.083898          Installed Drivers:
+00:00:00.093073            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.20.13906)
+00:00:00.093347            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.20.13906)
+00:00:00.093616            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.20.13906)
+00:00:00.093871            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.20.13906)
+00:00:00.094170          Loading settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.096813          usbLibGetDevices: Starting USB device enumeration
+00:00:00.101354          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&97f342f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.101427          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&97f342f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.103197          usbLibGetDevices: Found 6 USB devices, 0 captured
+00:00:00.103239          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x6a08)
+00:00:00.103374          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.204797          HostDnsMonitor: initializing
+00:00:00.212778          HostDnsMonitor: updating information
+00:00:00.212796          HostDnsMonitor: old information
+00:00:00.212796            no server entries
+00:00:00.212797            no domain set
+00:00:00.212797            no search string entries
+00:00:00.212798          HostDnsMonitor: new information
+00:00:00.212798            server 1: 192.168.1.1
+00:00:00.212799            domain: mynetworksettings.com
+00:00:00.212799            no search string entries
+00:00:00.302743          VD: VDInit finished with VINF_SUCCESS
+00:00:00.304033          VirtualBox: object created
+00:00:00.360179          Saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.364506          Finished saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml"
+00:00:00.364708          Saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.366872          Finished saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml"
+00:00:00.367082          Saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.369425          Finished saving settings file "C:\Users\Jeffr\.VirtualBox\VirtualBox.xml"
+00:12:28.075954 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:12:28.084099 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&97f342f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:12:28.084413 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:13:13.131600 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:13.136894 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&97f342f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:13:13.137008 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&97f342f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:13:13.137283 USBPROXY usbLibGetDevices: Found 6 USB devices, 0 captured
+00:19:24.699323 main     VirtualBox: object deletion starts
+00:19:24.704139 main     HostDnsMonitor: shutting down ...
+00:19:24.704242 main     HostDnsMonitor: shut down
+00:19:24.706680 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:19:24.707042 main     VirtualBox: object deleted

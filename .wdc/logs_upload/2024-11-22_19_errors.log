@@ -1,0 +1,7 @@
+2024-11-22T14:05:42-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2024-11-22T14:05:43-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"statusCode":404,"body":{"key":"notFound","message":"Not Found"},"url":"http://127.0.0.1:49731/kdd/v1/user/status"}
+2024-11-22T14:05:46-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2024-11-22T14:05:47-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.paragon","version":"x.x.x.x","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}
+2024-11-22T14:05:47-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.driveutility","version":"x.x.x.x","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}
+2024-11-22T14:05:47-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.security","version":"x.x.x.x","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}
+2024-11-22T14:05:47-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"statusCode":404,"body":{"key":"notFound","message":"Not Found"},"url":"http://127.0.0.1:49760/kdd/v1/user/status"}

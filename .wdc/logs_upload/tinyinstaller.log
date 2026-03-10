@@ -1,0 +1,4 @@
+﻿2020-11-09T03:26:30-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 [DEBUG] Application start
+2020-11-09T03:26:30-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 [DEBUG] Skip analytics sending. Logs: 2020-11-09T03:26:30.5558145-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 {"Event":"InstallerLaunch","Product":"TinyInstaller","Version":"1.0.440","OS":"Windows","OSVersion":"10.0.19041.0","AppName":"wd","ScreenResolution":"1920x1080","Processor":"Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz"}
+2020-11-09T03:26:33-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 [INFO] Locale = en-US
+2020-11-09T03:26:33-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 [DEBUG] Show "Welcome" screen

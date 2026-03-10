@@ -1,0 +1,5631 @@
+2020-05-11T16:01:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:01:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:03-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:01:03-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:03-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:01:04-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:43-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:52-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:52-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:52-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:52-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:52-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:53-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:53-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:53-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:03:54-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:32-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:06:32-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:32-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:32-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:32-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:34-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:06:34-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:13-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:09:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:12:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:14:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:14:58-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:17:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:17:38-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:38-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:38-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:17:38-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:40:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:40:20-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:42:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:42:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:42:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:42:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:42:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:00-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:43:00-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:00-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:00-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:00-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:43:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:43:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:39-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:45:39-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:39-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:39-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:39-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:40-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:45:40-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:40-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:40-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:40-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:45:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:45:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:14-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2020-05-11T16:48:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076560491657883",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:48:18-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.6941.25593"
+        }
+      }
+    ]
+  }
+}
+2020-05-11T16:52:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "My Passport",
+          "deviceId": "USB_1058_25E1_WX71AA86EY8R",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_1058_25E1",
+          "serial": "WX71AA86EY8R",
+          "capacity": "1000170585600",
+          "firmware": "1021",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "1000167440384",
+              "spaceAvailable": "0.61076350811566793",
+              "volumeName": "My Passport (E:)",
+              "url": "My Passport (E:)",
+              "label": "My Passport (E:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "E:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "E"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{"k":"0000000078","o":"0000000514","v":"001"}
+{"_id":2,"_uid":5,"_dt":1604910728218,"_s":"3763635c40d10dc6253341b8d148f8ac"}
+{"id":"com.wdc.branded.kamino","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.kamino","name":"My Cloud Desktop","statusMessage":"Version: 2.1.0.313","icon":"file:///C:/Program%20Files/WD%20Desktop%20App/app.svg","iconHover":"file:///C:/Program%20Files/WD%20Desktop%20App/app_active.svg","version":"2.1.0.313","openAction":{"_class":"com.wdc.smb.action.Deeplink","label":"Open","url":"wddiscovery://kamino/login"}}},"sourceId":"com.wdc.branded.kamino","_id":{"$wrap":"$oid","v":2}}
+{"k":"0000000078","o":"0000000540","v":"001"}
+{"_id":7,"_uid":7,"_dt":1708960181789,"_s":"ca6ef1be1b32dda1d572d47c1a3e05b7"}
+{"id":"com.wdc.branded.backup","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.backup","name":"WD Backup","openAction":{"_class":"com.wdc.smb.action.Command","command":"\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"","argument":"-launchbackupdefault"},"version":"1.9.7435.38388","icon":"file:///C:/Users/Jeffr/AppData/Roaming/WD%20Discovery/plugins/com.wdc.plugin.catalog/current/assets/apps/wd_backup.png"}},"sourceId":"driveagent.apps.wdc.com","_id":{"$wrap":"$oid","v":7}}
+{"k":"0000000049","o":"0000000000","v":"001"}
+{"_id":7,"_uid":7,"_dt":1752444168466,"_a":"del"}
+
+{"k":"0000000078","o":"0000000540","v":"001"}
+{"_id":8,"_uid":8,"_dt":1752444220936,"_s":"2046bbb7678eb8b49fb08dd640b57719"}
+{"id":"com.wdc.branded.backup","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.backup","name":"WD Backup","openAction":{"_class":"com.wdc.smb.action.Command","command":"\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"","argument":"-launchbackupdefault"},"version":"1.9.7435.38388","icon":"file:///C:/Users/Jeffr/AppData/Roaming/WD%20Discovery/plugins/com.wdc.plugin.catalog/current/assets/apps/wd_backup.png"}},"sourceId":"driveagent.apps.wdc.com","_id":{"$wrap":"$oid","v":8}}
+{"k":"0000000078","o":"0000000412","v":"001"}
+{"_id":8,"_uid":8,"_dt":1771899213862,"_s":"c2ca7248636d3a126ecdc3c3775536e9"}
+{"id":"com.wdc.branded.backup","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.backup","name":"WD Backup","openAction":{"_class":"com.wdc.smb.action.Command","command":"\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"","argument":"-launchbackupdefault"},"version":"1.9.7435.38388"}},"sourceId":"driveagent.apps.wdc.com","_id":{"$wrap":"$oid","v":8}}

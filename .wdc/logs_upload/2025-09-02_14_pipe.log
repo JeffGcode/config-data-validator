@@ -1,0 +1,111 @@
+2025-09-02T10:40:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "notification": {
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.kamino",
+          "name": "My Cloud Desktop",
+          "statusMessage": "Version: 2.1.0.313",
+          "icon": "file:///C:/Program%20Files/WD%20Desktop%20App/app.svg",
+          "iconHover": "file:///C:/Program%20Files/WD%20Desktop%20App/app_active.svg",
+          "version": "2.1.0.313",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Deeplink",
+            "label": "Open",
+            "url": "wddiscovery://kamino/login"
+          }
+        }
+      }
+    ],
+    "type": "com.wdc.portal.app.post"
+  },
+  "sourceId": "com.wdc.branded.kamino"
+}
+2025-09-02T10:40:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "sourceId": "driveagent.apps.wdc.com",
+  "notification": {
+    "type": "com.wdc.portal.device.refresh",
+    "context": [
+      ""
+    ]
+  }
+}
+2025-09-02T10:40:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.delete",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.paragon",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.driveutility",
+          "version": "x.x.x.x"
+        }
+      },
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.security",
+          "version": "x.x.x.x"
+        }
+      }
+    ]
+  }
+}
+2025-09-02T10:40:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.app.post",
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.backup",
+          "name": "WD Backup",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Command",
+            "command": "\"C:\\Program Files (x86)\\Western Digital\\WD App Manager\\WDAppManager.exe\"",
+            "argument": "-launchbackupdefault"
+          },
+          "version": "1.9.7435.38388"
+        }
+      }
+    ]
+  }
+}
+2025-09-02T10:40:19-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "notification": {
+    "context": [
+      {
+        "model": {
+          "_class": "com.wdc.portal.model.App",
+          "appId": "com.wdc.branded.kamino",
+          "name": "My Cloud Desktop",
+          "statusMessage": "Version: 2.1.0.313",
+          "icon": "file:///C:/Program%20Files/WD%20Desktop%20App/app.svg",
+          "iconHover": "file:///C:/Program%20Files/WD%20Desktop%20App/app_active.svg",
+          "version": "2.1.0.313",
+          "openAction": {
+            "_class": "com.wdc.smb.action.Deeplink",
+            "label": "Open",
+            "url": "wddiscovery://kamino/login"
+          }
+        }
+      }
+    ],
+    "type": "com.wdc.portal.app.post"
+  },
+  "sourceId": "com.wdc.branded.kamino"
+}

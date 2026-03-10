@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "app": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "port": {"type": "number"}
+      },
+      "required": ["name", "port"]
+    }
+  },
+  "required": ["app"]
+}

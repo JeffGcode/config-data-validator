@@ -1,0 +1,299 @@
+{
+    "version": "1",
+    "menu": [
+        "menu/PreferencesMenuItem",
+        "menu/HelpMenuItem",
+        "menu/OnlineLearningMenuItem",
+        "menu/UserManualMenuItem",
+        "menu/FeedbackMenuItem",
+        "menu/PinToMenuItem",
+        "menu/OnboardingItem",
+        "menu/LoginMenuItem",
+        "menu/QuitMenuItem"
+    ],
+    "tabs": [
+        {
+            "id": "devices",
+            "props": {},
+            "title": "menu.storage",
+            "defaultBlocks": [
+                {
+                    "component": "views/NoConnection",
+                    "props": {
+                        "hasContent": true
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "type": "default",
+                    "blocks": [
+                        {
+                            "component": "import/ImportList",
+                            "props": {}
+                        },
+                        {
+                            "component": "devices/DevicesList",
+                            "props": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "fixed-bottom",
+                    "blocks": [
+                        {
+                            "component": "views/Footer/DevicesFooter",
+                            "props": {
+                                "isHidden": {
+                                    "type": "condition",
+                                    "payload": {
+                                        "type": "some",
+                                        "selectors": [
+                                            "showFooterDeviceTabSelector",
+                                            "hasNoBannersSelector",
+                                            "isOnlineSelector"
+                                        ],
+                                        "match": false
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "fixed-bottom",
+                    "props": {
+                        "isHidden": {
+                            "type": "condition",
+                            "payload": {
+                                "type": "every",
+                                "selectors": [
+                                    "hasDevicesSelector",
+                                    "hasImportNotificationsSelector",
+                                    "hasBannersSelector",
+                                    "hasImportWorkersSelector"
+                                ],
+                                "match": false
+                            }
+                        }
+                    },
+                    "blocks": [
+                        {
+                            "component": "banner/BannersList",
+                            "props": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "apps",
+            "props": {},
+            "title": "menu.apps",
+            "defaultBlocks": [
+                {
+                    "component": "views/NoConnection",
+                    "props": {
+                        "hasContent": {
+                            "type": "condition",
+                            "payload": {
+                                "type": "some",
+                                "selectors": [
+                                    "hasVisibleAppsSelector"
+                                ],
+                                "match": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "component": "views/NoService",
+                    "props": {
+                        "services": [
+                            "appCatalog"
+                        ],
+                        "hasContent": {
+                            "type": "condition",
+                            "payload": {
+                                "type": "some",
+                                "selectors": [
+                                    "hasVisibleAppsSelector"
+                                ],
+                                "match": true
+                            }
+                        }
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "type": "default",
+                    "blocks": [
+                        {
+                            "component": "apps/AppsBanner",
+                            "props": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "default",
+                    "blocks": [
+                        {
+                            "component": "apps/AppsListBlock",
+                            "props": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "notifications",
+            "props": {},
+            "title": {
+                "component": "notification/NotificationIcon",
+                "props": {
+                    "isHidden": {
+                        "type": "condition",
+                        "payload": {
+                            "type": "every",
+                            "selectors": [
+                                "onboardingEnabledSelector"
+                            ],
+                            "match": true
+                        }
+                    },
+                    "hasHighPriorityNotifications": {
+                        "type": "condition",
+                        "payload": {
+                            "type": "every",
+                            "selectors": [
+                                "hasHighPriorityNotificationsSelector"
+                            ],
+                            "match": true
+                        }
+                    },
+                    "hasNotifications": {
+                        "type": "condition",
+                        "payload": {
+                            "type": "every",
+                            "selectors": [
+                                "hasDataSelector"
+                            ],
+                            "match": true
+                        }
+                    }
+                }
+            },
+            "defaultBlocks": [
+                {
+                    "component": "views/NoConnection",
+                    "props": {
+                        "hasContent": {
+                            "type": "condition",
+                            "payload": {
+                                "type": "some",
+                                "selectors": [
+                                    "hasNotificationsSelector"
+                                ],
+                                "match": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "component": "views/NoService",
+                    "props": {
+                        "services": [
+                            "notification"
+                        ],
+                        "hasContent": {
+                            "type": "condition",
+                            "payload": {
+                                "type": "some",
+                                "selectors": [
+                                    "hasNotificationsSelector"
+                                ],
+                                "match": true
+                            }
+                        }
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "type": "default",
+                    "blocks": [
+                        {
+                            "component": "notification/NotificationsList",
+                            "props": {}
+                        }
+                    ]
+                },
+                {
+                    "type": "fixed-bottom",
+                    "blocks": [
+                        {
+                            "component": "views/Footer/NotificationsFooter",
+                            "props": {
+                                "isHidden": {
+                                    "type": "condition",
+                                    "payload": {
+                                        "type": "some",
+                                        "selectors": [
+                                            "showFooterNotificationsTabSelector",
+                                            "isOnlineSelector"
+                                        ],
+                                        "match": false
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "settings",
+            "props": {
+                "className": "wd-settings"
+            },
+            "title": {
+                "component": "settings/SettingsIcon",
+                "props": {}
+            },
+            "defaultBlocks": [
+                {
+                    "component": "views/NoConnection",
+                    "props": {
+                        "hasContent": true
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "type": "default",
+                    "blocks": [
+                        {
+                            "component": "views/SettingsTab",
+                            "props": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dialogs": [
+        "Import",
+        "HelpConnect",
+        "SignIn",
+        "AppDetail",
+        "WebView",
+        "WelcomeTour",
+        "Feedback",
+        "MyCloud",
+        "Onboarding",
+        "MoreSettings",
+        "SettingLinks",
+        "WhatsNew"
+    ]
+}

@@ -1,0 +1,3 @@
+2025-10-01T14:00:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.paragon","version":"11.3.72","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}
+2025-10-01T14:00:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.driveutility","version":"2.1.5.482","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}
+2025-10-01T14:00:23-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error APP_CATALOG_SERVICE: Not valid delete request to App Catalog {"appId":"com.wdc.branded.security","version":"2.1.4.358","discoveryVersion":"4.3.327","osFamily":"WINDOWS_x64"}

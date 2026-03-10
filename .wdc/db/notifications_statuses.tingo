@@ -1,0 +1,42 @@
+{"k":"0000000078","o":"0000000089","v":"001"}
+{"_id":2,"_uid":2,"_dt":1551617549479,"_s":"55db0a7f20f4bbeca5204a7801703cfe"}
+{"id":"com.wdc.branded.kamino_2.1.0.215","status":"IS READ","_id":{"$wrap":"$oid","v":2}}
+{"k":"0000000078","o":"0000000101","v":"001"}
+{"_id":3,"_uid":3,"_dt":1551617549480,"_s":"e404c6564c2cd6584a2de1736234b216"}
+{"id":"portal.apps.wdc.com_update_completed_3.2.256","status":"IS READ","_id":{"$wrap":"$oid","v":3}}
+{"k":"0000000078","o":"0000000106","v":"001"}
+{"_id":4,"_uid":4,"_dt":1551635470714,"_s":"85b09a5df08856f16a7b145421894b3e"}
+{"id":"com.wdc.branded.kamino_update_completed_2.1.0.205","status":"IS READ","_id":{"$wrap":"$oid","v":4}}
+{"k":"0000000078","o":"0000000106","v":"001"}
+{"_id":5,"_uid":5,"_dt":1551639553655,"_s":"6ff0baadeff45c66b43031b5841d2035"}
+{"id":"com.wdc.branded.kamino_update_completed_2.1.0.215","status":"IS READ","_id":{"$wrap":"$oid","v":5}}
+{"k":"0000000078","o":"0000000106","v":"001"}
+{"_id":6,"_uid":6,"_dt":1560632007148,"_s":"227dfef40acee846535b4ec0eac508fc"}
+{"id":"com.wdc.branded.kamino_update_completed_2.1.0.245","status":"IS READ","_id":{"$wrap":"$oid","v":6}}
+{"k":"0000000078","o":"0000000100","v":"001"}
+{"_id":7,"_uid":7,"_dt":1560632007151,"_s":"624b7019a1ef4a5d75efa18492bcc1d4"}
+{"id":"portal.apps.wdc.com_update_completed_3.3.34","status":"IS READ","_id":{"$wrap":"$oid","v":7}}
+{"k":"0000000078","o":"0000000093","v":"001"}
+{"_id":8,"_uid":8,"_dt":1564234669017,"_s":"a1d43abe0f34b7c0984f5e46f057e590"}
+{"id":"com.wdc.branded.backup_1.9.7117.6823","status":"IS READ","_id":{"$wrap":"$oid","v":8}}
+{"k":"0000000078","o":"0000000100","v":"001"}
+{"_id":9,"_uid":9,"_dt":1567444075809,"_s":"56907406ed0479a74726cec9cc319b7f"}
+{"id":"portal.apps.wdc.com_update_completed_3.4.89","status":"IS READ","_id":{"$wrap":"$oid","v":9}}
+{"k":"0000000080","o":"0000000107","v":"001"}
+{"_id":10,"_uid":10,"_dt":1567444075811,"_s":"37ed5738a78e7ea736b1b94eaad61779"}
+{"id":"com.wdc.branded.kamino_update_completed_2.1.0.246","status":"IS READ","_id":{"$wrap":"$oid","v":10}}
+{"k":"0000000080","o":"0000000102","v":"001"}
+{"_id":11,"_uid":11,"_dt":1604912081676,"_s":"4b32791edf728fdce79140ae43751dbd"}
+{"id":"portal.apps.wdc.com_update_completed_4.1.270","status":"IS READ","_id":{"$wrap":"$oid","v":11}}
+{"k":"0000000080","o":"0000000107","v":"001"}
+{"_id":12,"_uid":12,"_dt":1604912081677,"_s":"450bdb1795d17b39f6ef75c5bf66d290"}
+{"id":"com.wdc.branded.kamino_update_completed_2.1.0.313","status":"IS READ","_id":{"$wrap":"$oid","v":12}}
+{"k":"0000000080","o":"0000000089","v":"001"}
+{"_id":13,"_uid":13,"_dt":1606756488121,"_s":"63dc063c0ff7780024c34e60a6d2e5e2"}
+{"id":"com.wdc.branded.backup_1.9.7435","status":"IS READ","_id":{"$wrap":"$oid","v":13}}
+{"k":"0000000080","o":"0000000083","v":"001"}
+{"_id":14,"_uid":14,"_dt":1617849818038,"_s":"068e47607f7944812ad6c055b3519159"}
+{"id":"discovery.wdc.com_4.3.327","status":"IS READ","_id":{"$wrap":"$oid","v":14}}
+{"k":"0000000051","o":"0000000000","v":"001"}
+{"_id":13,"_uid":14,"_dt":1640625622745,"_a":"del"}
+

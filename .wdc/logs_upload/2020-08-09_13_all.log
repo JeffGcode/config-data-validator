@@ -1,0 +1,10 @@
+2020-08-09T09:43:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info SMB: not running
+2020-08-09T09:43:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info SMB: http server started over named pipe
+2020-08-09T09:43:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info MESSAGE_HANDLER: started
+2020-08-09T09:43:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info ACTION_HANDLER: started
+2020-08-09T09:43:28-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2020-08-09T09:43:28-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2020-08-09T09:43:48-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2020-08-09T09:43:48-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"stack":"Error: connect ECONNREFUSED 127.0.0.1:60898\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)","message":"connect ECONNREFUSED 127.0.0.1:60898","errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":60898}
+2020-08-09T09:44:17-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info App added {"id":"com.wdc.branded.kamino","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.kamino","name":"My Cloud Desktop","statusMessage":"Version: 2.1.0.246","icon":"file:///C:/Program%20Files/WD%20Desktop%20App/app.svg","iconHover":"file:///C:/Program%20Files/WD%20Desktop%20App/app_active.svg","version":"2.1.0.246","openAction":{"_class":"com.wdc.smb.action.Deeplink","label":"Open","url":"wddiscovery://kamino/login"}}},"sourceId":"com.wdc.branded.kamino","_id":{"id":2}}
+2020-08-09T09:44:22-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: started

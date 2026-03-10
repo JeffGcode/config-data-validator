@@ -1,0 +1,3 @@
+2020-07-22T19:43:10-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2020-07-22T19:43:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"stack":"Error: connect ECONNREFUSED 127.0.0.1:59725\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)","message":"connect ECONNREFUSED 127.0.0.1:59725","errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":59725}
+2020-07-22T19:43:12-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"statusCode":404,"body":{"key":"notFound","message":"Not Found"},"url":"http://127.0.0.1:59223/kdd/v1/user/status"}

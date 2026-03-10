@@ -1,0 +1,115 @@
+2020-06-17T21:32:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.post",
+    "context": [
+      {
+        "model": {
+          "name": "Storage Media",
+          "deviceId": "USB_054C_02A5_9B3001402280025114",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_054C_02A5",
+          "serial": "9B3001402280025114",
+          "capacity": "7801404928",
+          "firmware": "100",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [],
+          "mountPoints": []
+        }
+      }
+    ]
+  }
+}
+2020-06-17T21:32:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.put",
+    "context": [
+      {
+        "model": {
+          "name": "Storage Media",
+          "deviceId": "USB_054C_02A5_9B3001402280025114",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_054C_02A5",
+          "serial": "9B3001402280025114",
+          "capacity": "7801404928",
+          "firmware": "100",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "7796162560",
+              "spaceAvailable": "0.3030262273032952",
+              "volumeName": "RABSHRED (D:)",
+              "url": "RABSHRED (D:)",
+              "label": "RABSHRED (D:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "D:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "D"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+2020-06-17T21:44:10-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info {
+  "sourceId": "driveagent.apps.wdc.com",
+  "sourceName": "WD Device Agent",
+  "priority": 1,
+  "notification": {
+    "type": "com.wdc.portal.device.delete",
+    "context": [
+      {
+        "model": {
+          "name": "Storage Media",
+          "deviceId": "USB_054C_02A5_9B3001402280025114",
+          "_class": "com.wdc.portal.model.Device",
+          "type": "USB_054C_02A5",
+          "serial": "9B3001402280025114",
+          "capacity": "7801404928",
+          "firmware": "100",
+          "hasPassword": false,
+          "isLocked": false,
+          "volumes": [
+            {
+              "readOnly": false,
+              "isDriverInstallationRequired": false,
+              "hasTimeMachineBackup": false,
+              "capacity": "7796162560",
+              "spaceAvailable": "0.3030262273032952",
+              "volumeName": "RABSHRED (D:)",
+              "url": "RABSHRED (D:)",
+              "label": "RABSHRED (D:)",
+              "openAction": {
+                "label": "Open",
+                "_class": "com.wdc.smb.action.OpenLocation",
+                "url": "D:\\"
+              }
+            }
+          ],
+          "mountPoints": [
+            {
+              "mountPoint": "D"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

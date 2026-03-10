@@ -1,0 +1,15 @@
+2020-10-31T17:11:26-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:31-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:36-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:41-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:46-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:51-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:11:56-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:01-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:06-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:11-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:16-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:21-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:26-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: not started
+2020-10-31T17:12:33-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info CLOUD: started
+2020-10-31T17:12:37-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 info App added {"id":"com.wdc.branded.kamino","context":{"model":{"_class":"com.wdc.portal.model.App","appId":"com.wdc.branded.kamino","name":"My Cloud Desktop","statusMessage":"Version: 2.1.0.246","icon":"file:///C:/Program%20Files/WD%20Desktop%20App/app.svg","iconHover":"file:///C:/Program%20Files/WD%20Desktop%20App/app_active.svg","version":"2.1.0.246","openAction":{"_class":"com.wdc.smb.action.Deeplink","label":"Open","url":"wddiscovery://kamino/login"}}},"sourceId":"com.wdc.branded.kamino","_id":{"id":2}}

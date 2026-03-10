@@ -1,0 +1,2 @@
+2020-12-15T18:14:08-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error WD_SERVICE: REQUEST ERROR: {"stack":"Error: socket hang up\n    at createHangUpError (_http_client.js:322:15)\n    at Socket.socketCloseListener (_http_client.js:363:25)\n    at Socket.emit (events.js:187:15)\n    at TCP._handle.close (net.js:606:12)","message":"socket hang up","code":"ECONNRESET"}
+2020-12-15T18:14:11-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error 2100 in com.wdc.plugin.catalog: {"message":"Timeout! 15 seconds expired","additionalData":{"version":"1.0.229"}}

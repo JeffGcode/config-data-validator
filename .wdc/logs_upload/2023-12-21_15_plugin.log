@@ -1,0 +1,3 @@
+2023-12-21T10:16:05-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error PLUGIN_HELPER: Error while renameSync backupPlugin folder of plugin [com.wdc.plugin.catalog] renamed to 1.0.235
+2023-12-21T10:16:05-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error PLUGIN_INSTALLER: Error: EPERM: operation not permitted, rename 'C:\Users\Jeffr\AppData\Roaming\WD Discovery\plugins\com.wdc.plugin.catalog\current' -> 'C:\Users\Jeffr\AppData\Roaming\WD Discovery\plugins\com.wdc.plugin.catalog\1.0.235'
+2023-12-21T10:16:07-05:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error PLUGIN_INSTALLER: null

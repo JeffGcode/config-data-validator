@@ -1,0 +1,2 @@
+2021-06-06T02:15:59-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: "Skip duplicate request GET /kdd/v1/user/status"
+2021-06-06T02:16:02-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"stack":"Error: connect ECONNREFUSED 127.0.0.1:50568\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)","message":"connect ECONNREFUSED 127.0.0.1:50568","errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50568}

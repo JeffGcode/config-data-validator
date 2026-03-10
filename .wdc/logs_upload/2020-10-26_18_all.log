@@ -1,0 +1,1 @@
+2020-10-26T14:24:09-04:00 ci=3a11f697-7362-4cb1-8ea9-2fa6d628f7b5 error KAMINO: {"statusCode":404,"body":{"key":"notFound","message":"Not Found"},"url":"http://127.0.0.1:59905/kdd/v1/user/status"}
