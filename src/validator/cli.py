@@ -1,23 +1,26 @@
-import click
-from validator.loader import load_config
-from validator.validator import load_schema, validate_config
+import argparse
+import sys
+from .loader import load_config
+from .exceptions import ConfigLoadError
+from .schema import validate_config
+from pydantic import ValidationError  # <-- add import
 
-
-@click.command()
-@click.argument("config_file")
-@click.argument("schema_file")
-def main(config_file, schema_file):
-    config = load_config(config_file)
-    schema = load_schema(schema_file)
+def main():
+    parser = argparse.ArgumentParser(description="Config Data Validator")
+    parser.add_argument("--file", required=True, help="Path to config file")
+    args = parser.parse_args()
 
     try:
-        validate_config(config, schema)
-        print("✅ Config is valid")
-    except Exception as e:
-        print("❌ Config validation failed")
-        print(e)
-
+        config_dict = load_config(args.file)
+        validated = validate_config(config_dict)
+        print("✅ Config loaded and validated successfully")
+        print(validated.model_dump_json(indent=2))
+        sys.exit(0)
+    except (ConfigLoadError, ValidationError) as err:
+        print(f"❌ Error: {err}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
+
     
