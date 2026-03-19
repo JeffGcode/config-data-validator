@@ -1,4 +1,4 @@
-from validator.loader import load_config
+from src.validator.loader import load_config
 from validator.validator import load_schema, validate_config
 
 

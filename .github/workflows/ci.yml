@@ -33,9 +33,9 @@ jobs:
         run: |
           black --check src tests
 
-      - name: Test with pytest
-        run: |
-          pytest -v
+        name: Test with pytest
+         run: |
+          python -m pytest -v
 
   docker-build:
     runs-on: ubuntu-latest
