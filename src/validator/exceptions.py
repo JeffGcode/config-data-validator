@@ -4,4 +4,3 @@ class ConfigLoadError(Exception):
 
 class ValidationError(Exception):
     """Raised when validation rules fail."""
-    

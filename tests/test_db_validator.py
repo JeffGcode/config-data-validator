@@ -3,11 +3,13 @@ import sqlite3
 from src.validator.db_validator import validate_table_schema, validate_table_data
 from src.validator.exceptions import ValidationError
 
+
 def test_missing_table(tmp_path):
     db = tmp_path / "temp.db"
     url = f"sqlite:///{db}"
     with pytest.raises(ValidationError, match="does not exist"):
         validate_table_schema(url, "nonexistent", [])
+
 
 def test_missing_columns(tmp_path):
     db = tmp_path / "temp.db"
@@ -18,6 +20,7 @@ def test_missing_columns(tmp_path):
     url = f"sqlite:///{db}"
     with pytest.raises(ValidationError, match="missing columns"):
         validate_table_schema(url, "users", ["id", "email"])
+
 
 def test_violation_condition(tmp_path):
     db = tmp_path / "temp.db"
@@ -30,6 +33,7 @@ def test_violation_condition(tmp_path):
     with pytest.raises(ValidationError, match="1 rows violate"):
         validate_table_data(url, "users", "age < 18")
 
+
 def test_valid_table(tmp_path):
     db = tmp_path / "temp.db"
     conn = sqlite3.connect(db)
@@ -40,4 +44,3 @@ def test_valid_table(tmp_path):
     url = f"sqlite:///{db}"
     validate_table_schema(url, "users", ["id", "email", "age"])
     validate_table_data(url, "users", "age < 18")  # Should not raise
-    

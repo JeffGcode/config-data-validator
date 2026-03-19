@@ -7,4 +7,3 @@ def test_config_validation():
     schema = load_schema("samples/schema.json")
 
     validate_config(config, schema)
-    

@@ -4,6 +4,7 @@ from .exceptions import ValidationError
 
 REQUIRED_COLUMNS = {"id", "email", "age"}
 
+
 def validate_csv(file_path: str) -> pd.DataFrame:
     path = Path(file_path)
     if not path.exists():

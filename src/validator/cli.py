@@ -6,6 +6,7 @@ from .schema import validate_config
 from .data_validator import validate_csv
 from .db_validator import validate_table_schema, validate_table_data
 
+
 def main():
     parser = argparse.ArgumentParser(description="Config & Data Validator")
     parser.add_argument("--file", help="Path to config file")
@@ -50,8 +51,6 @@ def main():
 
     sys.exit(exit_code)
 
+
 if __name__ == "__main__":
     main()
-
-
-    

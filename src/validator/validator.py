@@ -9,4 +9,3 @@ def load_schema(path):
 
 def validate_config(config, schema):
     validate(instance=config, schema=schema)
-    
