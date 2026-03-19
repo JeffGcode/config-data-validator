@@ -1,9 +1,20 @@
-from src.validator.loader import load_config
-from validator.validator import load_schema, validate_config
+import pytest
+from src.validator.schema import validate_config
+from pydantic import ValidationError
 
+def test_valid_config():
+    config = {"name": "myapp", "environment": "dev", "version": "1.0.0"}
+    result = validate_config(config)
+    assert result.name == "myapp"
+    assert result.environment == "dev"
+    assert result.version == "1.0.0"
 
-def test_config_validation():
-    config = load_config("samples/config.yaml")
-    schema = load_schema("samples/schema.json")
+def test_invalid_config_missing_field():
+    config = {"name": "myapp"}  # missing environment
+    with pytest.raises(ValidationError):
+        validate_config(config)
 
-    validate_config(config, schema)
+def test_invalid_config_bad_environment():
+    config = {"name": "myapp", "environment": "bad", "version": "1.0.0"}
+    with pytest.raises(ValidationError):
+        validate_config(config)
