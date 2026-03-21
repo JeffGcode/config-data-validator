@@ -1,5 +1,6 @@
 import argparse
 import sys
+from argparse import Namespace
 from .loader import load_config
 from .exceptions import ConfigLoadError, ValidationError
 from .schema import validate_config
@@ -7,16 +8,16 @@ from .data_validator import validate_csv
 from .db_validator import validate_table_schema, validate_table_data
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description="Config & Data Validator")
     parser.add_argument("--file", help="Path to config file")
     parser.add_argument("--data-file", help="Path to CSV data file")
     parser.add_argument("--db-url", help="Database URL (e.g. sqlite:///data.db)")
     parser.add_argument("--table", help="Table name to validate")
     parser.add_argument("--condition", help="SQL condition for data validation")
-    args = parser.parse_args()
+    args: Namespace = parser.parse_args()
 
-    exit_code = 0
+    exit_code: int = 0
 
     if args.file:
         try:

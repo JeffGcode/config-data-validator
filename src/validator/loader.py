@@ -1,8 +1,7 @@
-import json
 from pathlib import Path
+import json
 import yaml
 from .exceptions import ConfigLoadError
-
 
 def load_config(file_path: str) -> dict:
     path = Path(file_path)
