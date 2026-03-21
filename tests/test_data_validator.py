@@ -29,3 +29,4 @@ def test_valid_csv(tmp_path):
     good_csv.write_text("id,email,age\n1,test@test.com,30\n2,user@domain.com,25")
     df = validate_csv(str(good_csv))
     assert len(df) == 2
+    
