@@ -18,7 +18,7 @@ def validate_csv(file_path: str) -> pd.DataFrame:
     # Check required columns
     missing = REQUIRED_COLUMNS - set(df.columns)
     if missing:
-        raise ValidationError(f"Missing columns: {missing}")
+        raise ValidationError(f"CSV is missing required columns: {', '.join(missing)}")
 
     # Check for empty values
     if df.isnull().any().any():

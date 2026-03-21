@@ -23,9 +23,7 @@ def validate_table_schema(
     engine.dispose()
 
 
-def validate_table_data(
-    engine_url: str, table_name: str, condition: str
-) -> None:
+def validate_table_data(engine_url: str, table_name: str, condition: str) -> None:
     """
     Run a SQL condition and raise if any row violates it.
     """
@@ -36,7 +34,5 @@ def validate_table_data(
         )
         count = result.scalar() or 0
         if count > 0:
-            raise ValidationError(
-                f"{count} rows violate condition: {condition}"
-            )
+            raise ValidationError(f"{count} rows violate condition: {condition}")
     engine.dispose()
