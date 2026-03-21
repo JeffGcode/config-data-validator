@@ -44,4 +44,3 @@ def test_valid_table(tmp_path):
     url = f"sqlite:///{db}"
     validate_table_schema(url, "users", ["id", "email", "age"])
     validate_table_data(url, "users", "age < 18")  # Should not raise
-    
