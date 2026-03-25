@@ -1,0 +1,28 @@
+# Example custom validation rules for Config & Data Validator
+# This file overrides the default rules when passed with --config
+
+config:
+  required_fields:
+    - app_name
+    - port
+  type_checks:
+    app_name: str
+    port: int
+    debug: bool
+  port_range: [1, 65535]
+  allowed_environments:
+    - dev
+    - staging
+    - prod
+
+csv:
+  required_columns:
+    - id
+    - email
+    - age
+  email_validation: true
+
+db:
+  required_columns:
+    - id
+    - email
