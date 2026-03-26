@@ -20,7 +20,10 @@ def main() -> None:
     """
     # ---------- Argument Parser ----------
     parser = argparse.ArgumentParser(
-        description="Config & Data Validator - Validate YAML/JSON configs, CSV files, and SQL databases"
+        description=(
+            "Config & Data Validator - Validate YAML/JSON configs, "
+            "CSV files, and SQL databases"
+        )
     )
     parser.add_argument("--file", help="Path to config file (YAML or JSON)")
     parser.add_argument("--data-file", help="Path to CSV data file")
