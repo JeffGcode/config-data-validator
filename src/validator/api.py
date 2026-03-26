@@ -13,7 +13,9 @@ from .exceptions import ConfigLoadError, ValidationError
 import logging
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Config & Data Validator API")
@@ -22,16 +24,19 @@ app = FastAPI(title="Config & Data Validator API")
 # ---------- Request Models ----------
 class ConfigRequest(BaseModel):
     """Request model for config validation."""
+
     file_path: str
 
 
 class DataRequest(BaseModel):
     """Request model for CSV validation."""
+
     file_path: str
 
 
 class DBRequest(BaseModel):
     """Request model for database validation."""
+
     db_url: str
     table: str
     condition: str | None = None

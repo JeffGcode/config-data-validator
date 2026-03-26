@@ -5,7 +5,7 @@ Allows overriding default validation settings via a YAML file.
 
 import yaml
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict
 from .exceptions import ConfigLoadError
 
 
