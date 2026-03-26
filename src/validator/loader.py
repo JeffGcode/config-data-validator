@@ -5,6 +5,18 @@ from .exceptions import ConfigLoadError
 
 
 def load_config(file_path: str) -> dict:
+    """
+    Load a YAML or JSON configuration file.
+
+    Args:
+        file_path: Path to the configuration file (.yaml, .yml, .json).
+
+    Returns:
+        Dictionary containing the parsed configuration.
+
+    Raises:
+        ConfigLoadError: If file not found, unsupported format, or parsing error.
+    """
     path = Path(file_path)
     if not path.exists():
         raise ConfigLoadError(f"Config file not found: {file_path}")

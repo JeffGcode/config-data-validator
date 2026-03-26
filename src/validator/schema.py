@@ -1,4 +1,5 @@
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError as PydanticValidationError
+from .exceptions import ValidationError
 
 
 class AppConfig(BaseModel):
@@ -10,7 +11,20 @@ class AppConfig(BaseModel):
 
 
 def validate_config(config_dict: dict) -> AppConfig:
+    """
+    Validate a configuration dictionary against the AppConfig schema.
+
+    Args:
+        config_dict: Dictionary containing configuration fields.
+
+    Returns:
+        AppConfig instance with validated data.
+
+    Raises:
+        ValidationError: If the configuration does not match the schema.
+    """
     try:
         return AppConfig(**config_dict)
-    except ValidationError as e:
-        raise e
+    except PydanticValidationError as e:
+        # Convert to our custom ValidationError
+        raise ValidationError(str(e)) from e

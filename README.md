@@ -43,47 +43,58 @@ curl https://config-data-validator.onrender.com/health
 📄 License
 
 ✨ Features
-CLI tool – validate files directly from the terminal
+ CLI tool – validate files directly from the terminal
 
-REST API – expose validation logic via FastAPI
+ REST API – expose validation logic via FastAPI
 
-Complex config validation – Pydantic schemas with cross‑field rules
+ Complex config validation – Pydantic schemas with cross‑field rules
 
-CSV validation – required columns, data types, missing values
+ CSV validation – required columns, data types, missing values
 
-SQL validation – schema checks and custom SQL conditions
+ SQL validation – schema checks and custom SQL conditions
 
-Custom configuration – load validation rules from YAML file
+ Custom configuration – load validation rules from YAML file
 
-CI/CD pipeline – GitHub Actions runs linting, formatting, tests, and builds Docker image
+ CI/CD pipeline – GitHub Actions runs linting, formatting, tests, and builds Docker image
 
-Dockerized – ready to run anywhere
+ Dockerized – ready to run anywhere
 
-Deployed – live on Render (free tier)
+ Deployed – live on Render (free tier)
 
 🚀 Quick Start
-Clone and run the CLI:
+ Clone and run the CLI:
 
-bash
-git clone https://github.com/JeffGcode/config-data-validator.git
-cd config-data-validator
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
+ bash
+ git clone https://github.com/JeffGcode/ config-data-validator.git
+ cd config-data-validator
+ python -m venv .venv
+ source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+ pip install -r requirements.txt
 
-# Validate a config file
-python -m src.validator.cli --file samples/sample_config.yaml
+ # Validate a config file
+ python -m src.validator.cli --file samples/sample_config.yaml
 
-# Validate a CSV file
-python -m src.validator.cli --data-file samples/sample_data.csv
+ # Validate a CSV file
+ python -m src.validator.cli --data-file samples/sample_data.csv
 
-# Validate a SQLite database
-python -m src.validator.cli --db-url sqlite:///test.db --table users --condition "age < 18"
-Start the API server:
+ # Validate a SQLite database
+ python -m src.validator.cli --db-url sqlite:///test.db --table users --condition "age < 18"
+ Start the API server:
 
-bash
-uvicorn src.validator.api:app --reload
-Visit http://127.0.0.1:8000/docs for interactive API docs.
+ bash
+ uvicorn src.validator.api:app --reload
+ Visit http://127.0.0.1:8000/docs for interactive API docs.
+
+## 🎬 Demo
+
+ After setting up the project and creating the sample database, run the demo script to see all validation features in action:
+
+ ```bash
+# Create sample database (only once)
+  python scripts/create_sample_db.py
+
+ # Run the demo
+   python demo.py
 
 🛠️ Local Development
 Prerequisites
@@ -121,6 +132,7 @@ Then run:
 
 bash
 python -m src.validator.cli --file config.yaml --config validator_config.yaml
+
 CLI Options
 Option	Description
 --file	Path to config file (YAML/JSON)
@@ -130,6 +142,7 @@ Option	Description
 --condition	SQL condition for data validation
 --config	Path to custom validation rules YAML
 --verbose	Enable debug logging
+
 🧪 Testing
 Run the full test suite:
 
@@ -140,6 +153,7 @@ For test coverage:
 bash
 pip install pytest-cov
 pytest --cov=src
+
 🐳 Docker
 Build and run with Docker:
 

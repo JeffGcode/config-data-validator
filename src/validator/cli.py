@@ -1,3 +1,7 @@
+"""
+CLI entry point for the Config & Data Validator.
+"""
+
 import argparse
 import sys
 import logging
@@ -11,6 +15,9 @@ from .config_loader import ValidatorConfig
 
 
 def main() -> None:
+    """
+    Parse command-line arguments and execute validation.
+    """
     # ---------- Argument Parser ----------
     parser = argparse.ArgumentParser(
         description="Config & Data Validator - Validate YAML/JSON configs, CSV files, and SQL databases"
@@ -21,13 +28,12 @@ def main() -> None:
     parser.add_argument("--table", help="Table name to validate")
     parser.add_argument("--condition", help="SQL condition for data validation")
     parser.add_argument(
-        "--config",
-        help="Path to YAML configuration file with custom validation rules"
+        "--config", help="Path to YAML configuration file with custom validation rules"
     )
     parser.add_argument(
         "--verbose",
         action="store_true",
-        help="Enable debug logging (prints detailed info)"
+        help="Enable debug logging (prints detailed info)",
     )
     args: Namespace = parser.parse_args()
 
@@ -35,13 +41,11 @@ def main() -> None:
     # Set log level based on --verbose flag
     if args.verbose:
         logging.basicConfig(
-            level=logging.DEBUG,
-            format='%(asctime)s - %(levelname)s - %(message)s'
+            level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
         )
     else:
         logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s'
+            level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
         )
     logger = logging.getLogger(__name__)
 

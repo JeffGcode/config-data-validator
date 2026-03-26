@@ -1,6 +1,6 @@
 import pytest
 from src.validator.schema import validate_config
-from pydantic import ValidationError
+from src.validator.exceptions import ValidationError  # ← fixed import
 
 
 def test_placeholder():

@@ -7,7 +7,15 @@ def validate_table_schema(
     engine_url: str, table_name: str, required_columns: list
 ) -> None:
     """
-    Check that a table exists and has the required columns.
+    Check that a database table exists and contains all required columns.
+
+    Args:
+        engine_url: SQLAlchemy database URL (e.g., sqlite:///data.db).
+        table_name: Name of the table to validate.
+        required_columns: List of column names that must be present.
+
+    Raises:
+        ValidationError: If table missing or required columns missing.
     """
     engine = create_engine(engine_url, poolclass=NullPool)
     inspector = inspect(engine)
@@ -26,6 +34,14 @@ def validate_table_schema(
 def validate_table_data(engine_url: str, table_name: str, condition: str) -> None:
     """
     Run a SQL condition and raise if any row violates it.
+
+    Args:
+        engine_url: SQLAlchemy database URL.
+        table_name: Name of the table.
+        condition: SQL WHERE clause condition (e.g., "age < 18").
+
+    Raises:
+        ValidationError: If any rows satisfy the condition (i.e., bad data).
     """
     engine = create_engine(engine_url, poolclass=NullPool)
     with engine.connect() as conn:

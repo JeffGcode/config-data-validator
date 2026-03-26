@@ -1,6 +1,11 @@
+"""
+Configuration loader for custom validation rules.
+Allows overriding default validation settings via a YAML file.
+"""
+
 import yaml
 from pathlib import Path
-from typing import Any, Dict, List, Union
+from typing import Any, Dict, List
 from .exceptions import ConfigLoadError
 
 
@@ -33,13 +38,21 @@ class ValidatorConfig:
         }
 
     def load_from_file(self, file_path: str) -> None:
-        """Load configuration from a YAML file and update settings."""
+        """
+        Load configuration from a YAML file and update internal rules.
+
+        Args:
+            file_path: Path to the YAML configuration file.
+
+        Raises:
+            ConfigLoadError: If file not found or parsing fails.
+        """
         path = Path(file_path)
         if not path.exists():
             raise ConfigLoadError(f"Config file not found: {file_path}")
 
         try:
-            with open(path, 'r', encoding='utf-8') as f:
+            with open(path, "r", encoding="utf-8") as f:
                 data = yaml.safe_load(f)
         except Exception as e:
             raise ConfigLoadError(f"Failed to parse YAML: {e}")
