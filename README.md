@@ -5,6 +5,8 @@
 
 A Python-based validation service that checks configuration files (YAML/JSON), CSV data, and SQL database schemas. Built with FastAPI, Pydantic, SQLAlchemy, and Docker.
 
+Author: Jeffrey Gonzalez
+
 ---
 
 ## 🚀 Live API
